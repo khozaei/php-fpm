@@ -3,6 +3,8 @@
 
 FROM  php:7.4-fpm-alpine
 
+Maintainer Amin Khozaei <amin.khozaei@gmail.com>
+
 #Dependencies
 RUN apk add --update postgresql-dev \
 		curl bash rsync unzip netcat-openbsd \
